@@ -30,7 +30,7 @@ export const createUnitUiEn = async ({deep, Types, packageName, packageId}: {
   const { data: [{ id: syncTextFile }] } = await deep.insert({
     type_id: SyncTextFileId,
     string: { data: {
-      value: fs.readFileSync(path.join(__dirname, 'src', 'db', 'deep', 'unit-ui-en-locale.ts'), { encoding: 'utf-8' })
+      value: fs.readFileSync(path.join(__dirname, 'src', 'unit-ui-en-locale.ts'), { encoding: 'utf-8' })
     } },
     in: { data: [
       {

@@ -42,7 +42,7 @@ export const createPaymentProvider = async ({deep, Types, packageName, packageId
   const { data: [{ id: syncTextFile }] } = await deep.insert({
     type_id: SyncTextFileId,
     string: { data: {
-      value: fs.readFileSync(path.join(__dirname, 'src', 'db', 'deep', 'payment-insert-handler.ts'), { encoding: 'utf-8' })
+      value: fs.readFileSync(path.join(__dirname, 'src', 'payment-insert-handler.ts'), { encoding: 'utf-8' })
     } },
     in: { data: [
       {

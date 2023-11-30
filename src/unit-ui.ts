@@ -28,7 +28,7 @@ export const createUnitUi = async ({deep, Types, packageName, packageId}: {
     type_id: TsxId,
     string: {
       data: {
-        value: fs.readFileSync(path.join(__dirname, 'src', 'db', 'deep', 'unit-ui.tsx'), { encoding: 'utf-8' })
+        value: fs.readFileSync(path.join(__dirname, 'src', 'unit-ui.tsx'), { encoding: 'utf-8' })
       },
     },
     in: {
@@ -84,7 +84,7 @@ export const createUnitUi = async ({deep, Types, packageName, packageId}: {
     type_id: TsxId,
     string: {
       data: {
-        value: fs.readFileSync(path.join(__dirname, 'src', 'db', 'deep', 'unit-ui.tsx'), { encoding: 'utf-8' })
+        value: fs.readFileSync(path.join(__dirname, 'src', 'unit-ui.tsx'), { encoding: 'utf-8' })
       },
     },
     in: {
@@ -137,7 +137,7 @@ export const createUnitUi = async ({deep, Types, packageName, packageId}: {
     type_id: TsxId,
     string: {
       data: {
-        value: fs.readFileSync(path.join(__dirname, 'src', 'db', 'deep', 'unit-ui.tsx'), { encoding: 'utf-8' })
+        value: fs.readFileSync(path.join(__dirname, 'src', 'unit-ui.tsx'), { encoding: 'utf-8' })
       },
     },
     in: {

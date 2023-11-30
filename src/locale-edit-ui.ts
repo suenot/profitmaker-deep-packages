@@ -28,7 +28,7 @@ export const createLocaleEditUi = async ({deep, Types, packageName, packageId}: 
     type_id: TsxId,
     string: {
       data: {
-        value: fs.readFileSync(path.join(__dirname, 'src', 'db', 'deep', 'locale-edit-ui.tsx'), { encoding: 'utf-8' })
+        value: fs.readFileSync(path.join(__dirname, 'src', 'locale-edit-ui.tsx'), { encoding: 'utf-8' })
       },
     },
     in: {

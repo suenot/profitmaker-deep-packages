@@ -28,7 +28,7 @@ export const createAvatarEditUi = async ({deep, Types, packageName, packageId}: 
     type_id: TsxId,
     string: {
       data: {
-        value: fs.readFileSync(path.join(__dirname, 'src', 'db', 'deep', 'avatar-edit-ui.tsx'), { encoding: 'utf-8' })
+        value: fs.readFileSync(path.join(__dirname, 'src', 'avatar-edit-ui.tsx'), { encoding: 'utf-8' })
       },
     },
     in: {

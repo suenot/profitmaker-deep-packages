@@ -29,7 +29,7 @@ export const createPortfolioUi = async ({deep, Types, packageName, packageId}: {
     type_id: TsxId,
     string: {
       data: {
-        value: fs.readFileSync(path.join(__dirname, 'src', 'db', 'deep', 'portfolio-ui.tsx'), { encoding: 'utf-8' })
+        value: fs.readFileSync(path.join(__dirname, 'src', 'portfolio-ui.tsx'), { encoding: 'utf-8' })
       },
     },
     in: {

@@ -35,7 +35,7 @@ export const createEmissionProvider = async ({deep, Types, packageName, packageI
   const { data: [{ id: syncTextFile }] } = await deep.insert({
     type_id: SyncTextFileId,
     string: { data: {
-      value: fs.readFileSync(path.join(__dirname, 'src', 'db', 'deep', 'emission-insert-handler.ts'), { encoding: 'utf-8' })
+      value: fs.readFileSync(path.join(__dirname, 'src', 'emission-insert-handler.ts'), { encoding: 'utf-8' })
     } },
     in: { data: [
       {
